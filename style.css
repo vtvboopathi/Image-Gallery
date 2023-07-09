@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family:cursive;
+}
+
+.product-small img{
+    height: 100px;
+    width: 100px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .6;
+    object-fit: cover;
+}
+
+.product-small img:hover{
+    opacity: 1;
+}
+
+.product-small{
+    float: left;
+}
+
+.product{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.img-contain img{
+    height: 540px;
+    width: 540px;
+    object-fit: cover;
+}
+
+.img-contain{
+    float: right;
+    padding: 10px;
+}
+
+.vtv{
+    position: fixed;
+    right: 2px;
+    bottom:2px;
+    color: wheat;
+    font-size: 1rem;
+    user-select: none;
+}
+
+.vtv a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
